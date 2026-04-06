@@ -36,20 +36,28 @@ LLM Provider: Google Gemini (gemini-2.5-flash)
 
 project/
 │
+
 ├── setup_database.py     # Creates DB + inserts dummy data
-|
+
+
 ├── seed_memory.py        # Seeds agent memory with Q&A
-|
+
+
 ├── vanna_setup.py        # Vanna 2.0 agent setup
-|
+
+
 ├── main.py               # FastAPI app
-|
+
+
 ├── requirements.txt      # Dependencies
-|
+
+
 ├── README.md             # Documentation
-|
+
+
 ├── RESULTS.md            # Test results
-|
+
+
 └── clinic.db             # SQLite database
 
 
